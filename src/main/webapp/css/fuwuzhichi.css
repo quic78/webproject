@@ -1,0 +1,66 @@
+.banner {
+	height: 740px;
+}
+
+.banner>img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.text-title {
+	color: rgb(53, 53, 53);
+	font-weight: 500;
+	margin-top: 50px;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+.text-text {
+	font-size: 16px;
+	margin-top: 11px;
+	color: rgb(53, 53, 53);
+}
+
+.text-imglist {
+	height: 210px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.text-imglist>li {
+	width: 32%;
+	height: 100%;
+}
+
+.text-imglist>li>a,
+.text-imglist>li>a>div>img,
+.text-imglist>li>a>div
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.text-imglist>li>a>div>img {
+	height: 171px;
+	transition: all .4s;
+}
+
+.text-imglist>li>a:hover>div>img{
+	transform: scale(1.2);
+}
+.text-imglist>li>a>div{
+	overflow: hidden;
+	height: 171px;
+}
+
+.text-imglist>li>a>p {
+	box-sizing: border-box;
+	padding-left: 20px;
+	color: #fff;
+	background: #8E0721;
+	height: 40px;
+	line-height: 40px;
+}

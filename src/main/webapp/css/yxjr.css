@@ -1,0 +1,94 @@
+.banner {
+	height: 740px;
+}
+
+.banner>img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.text-title {
+	margin-top: 50px;
+	color: rgb(53, 53, 53);
+}
+
+.text-title>h1 {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.text-title>p {
+	font-size: 17px;
+	margin-top: 2px;
+	font-weight: bold;
+}
+
+.text-text {
+	font-size: 14px;
+	margin-top: 22px;
+	color: rgb(53, 53, 53);
+}
+
+.text-imglist-title {
+	display: flex;
+	margin-top: 40px;
+}
+
+.text-imglist-title>h3 {
+	width: 280px;
+	margin-right: 130px;
+	font-size: 17px;
+	cursor: pointer;
+	margin: 0;
+	margin-right: 130px;
+}
+
+.text-imglist-line {
+	height: 3px;
+	background: #e2e2e2;
+	margin: 15px 0;
+}
+
+.text-imglist-img {
+	width: 100%;
+	display: flex;
+	height: 220px;
+}
+
+.text-imglist-img>li {
+	width: 280px;
+	margin-right: 130px;
+	height: 100%;
+
+}
+
+.text-imglist-img>li>a {
+	display: block;
+	height: 100%;
+}
+
+.text-imglist-img>li>a>div:first-child,
+.text-imglist-img>li>a>div:first-child>img {
+	display: block;
+	width: 100%;
+	height: 170px;
+	transition: all .4s;
+	overflow: hidden;
+}
+
+.text-imglist-img>li>a>div:first-child:hover>img {
+	transform: scale(1.2);
+}
+
+.text-imglist-img>li>a>div:last-child {
+	width: 100px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 20px;
+	background: #ccc;
+	color: #000;
+}

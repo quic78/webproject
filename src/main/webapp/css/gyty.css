@@ -1,0 +1,11 @@
+.text-guimg {
+	display: block;
+	width: 100% !important;
+}
+
+h1 {
+	font-size: 22px;
+	text-align: center;
+	line-height: 30px;
+	margin: 50px 0;
+}
